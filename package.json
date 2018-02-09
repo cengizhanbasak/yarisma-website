@@ -1,0 +1,21 @@
+{
+  "name": "yarisma-website",
+  "version": "1.0.0",
+  "description": "CClub Programlama yarismasi website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cclub",
+    "programlama",
+    "yarisma",
+    "website"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}
