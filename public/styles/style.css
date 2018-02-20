@@ -177,6 +177,24 @@ ul li{
     color: #fff;
   }
 }
+
+.sponsor-gallery
+{
+  width: 100%;
+  background: #fff;
+  text-align: center;
+}
+
+.sponsor-img
+{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  margin-top: 15px; 
+}
+
+
 #errorBg{
   /* The image used */
   background-image: url("../img/error.png");
