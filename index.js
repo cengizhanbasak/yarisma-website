@@ -8,6 +8,10 @@ app.get('/',function(req,res){
   res.render('./src/index.ejs',{active:'yarisma'});
 });
 
+app.get('/sss',function(req,res){
+  res.render('./src/sss.ejs',{active:'sss'})
+});
+
 app.get('/contact',function(req,res){
   res.render('./src/contact.ejs',{active:'contact'});
 });

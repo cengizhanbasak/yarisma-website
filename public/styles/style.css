@@ -12,6 +12,12 @@ ul li{
   font-size: 1.2em;
 }
 
+ul li[type="circle"]{
+  font-size: 1em;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
 .img-responsive{
   width: 60px;
   height: auto;
@@ -191,7 +197,7 @@ ul li{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 15px;
-  margin-top: 15px; 
+  margin-top: 15px;
 }
 
 
