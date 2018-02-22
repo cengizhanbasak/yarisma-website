@@ -186,6 +186,8 @@ ul li[type="circle"]{
 
 .sponsor-gallery
 {
+  padding-top: 28px;
+  padding-bottom: 8px;
   width: 100%;
   background: #fff;
   text-align: center;
@@ -196,8 +198,8 @@ ul li[type="circle"]{
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin-bottom: 16px;
+  margin-top: 16px;
 }
 
 
