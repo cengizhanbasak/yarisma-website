@@ -19,6 +19,14 @@ app.get('/contact',function(req,res){
   res.render('./src/contact.ejs',{active:'contact'});
 });
 
+app.get('/yarisma',function(req,res){
+  res.status(301).redirect('/');
+})
+
+app.get('/cclub',function(req,res){
+  res.status(301).redirect('https://cclub.metu.edu.tr');
+})
+
 // NOT AVAILABLE ROUTES
 app.get('*',function(req,res){
   res.render("./src/errorPage.ejs",{active:''});
