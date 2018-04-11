@@ -7,10 +7,6 @@ app.get('/',function(req,res){
   res.render('./src/index.ejs',{active:'yarisma'});
 });
 
-app.get('/kayit',function(req,res){
-  res.render('./src/kayit.ejs',{active:'kayit'})
-});
-
 app.get('/sss',function(req,res){
   res.render('./src/sss.ejs',{active:'sss'})
 });
